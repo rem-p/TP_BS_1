@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+	<title>Musée de la photographie sous-marine de Bonifacio</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Musée de la photographie sous-marine de Bonifacio">
+	<meta name="keywords" content="photo, plongée">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/slicknav.min.css"/>
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="css/style.css"/>
+
+	<link rel="icon" href="img/icon2.png">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+	<!-- jQuery Modal -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- Header Section -->
+	<header class="header">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-4 col-md-3 order-2 order-sm-1">
+					<div class="header__social">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-6 order-1  order-md-2 text-center">
+					<a href="./index.html" class="site-logo">
+						<img src="img/logo.png" alt="">
+					</a>
+				</div>
+				<div class="col-sm-4 col-md-3 order-3 order-sm-3">
+					<div class="header__switches">
+						<a href="#" class="search-switch"><i class="fa fa-search"></i></a>
+						<a href="#" class="nav-switch"><i class="fa fa-bars"></i></a>
+						<a href="./tarifs.html" title="Acheter des photos"><i class="fa fa-shopping-cart"></i></a>
+					</div>
+				</div>
+			</div>
+			<nav class="main__menu">
+				<ul class="nav__menu">
+					<li><a href="./index.html">Accueil</a></li>
+					<li><a href="./about.html" class="menu--active">Présentation</a></li>
+					<li><a href="./gallery.html">Galerie</a></li>
+					<li><a href="./blog.html">Blog</a>
+						<ul class="sub__menu">
+							<li><a href="#">Photographier dans l'eau</a></li>
+							<li><a href="#">La faune des côtes corses</a></li>
+							<li><a href="#">Les saisons sous-marines</a></li>
+							<li><a href="#">La flore des côtes corses</a></li>
+							<li><a href="#">Le matériel de plongée</a></li>
+						</ul>
+					</li>
+					<li><a href="./contact.html">Contact</a>
+						<!-- <ul class="sub__menu">
+							<li><a href="./reservation_musee.html">Acheter un billet</a></li>
+						</ul> -->
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- Header Section end -->
+
+	<img src="img/about/banner.jpg" style="margin-top: 30px; margin-bottom: 0px;" alt="">
+
+	<!-- About Page -->
+	<section class="about__page">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="about__text">
+						<h3 class="about__title" style="margin-bottom: 30px;">Notre musée</h3>
+						<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Vivamus at nibh tincidunt, bibendum ligula id. Nemo enim ipsam voluptatem quiatotam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+						<p>Voir nos tarifs :</p>
+						<div>
+							<div id="ex1" class="modal">
+								<p>
+									<b>Tarifs des tickets :</b><br>
+									2€ par personne <br>
+									Gratuit pour les enfants (en dessous de 10 ans)
+								</p><br>
+								<a href="#" rel="modal:close">Fermer</a>
+							</div>
+							<!-- Link to open the modal -->
+							<p><a href="#ex1" rel="modal:open" title="Tarifs des tickets"><img src="img/ticket.png" width="40px" alt=""></a></p>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat incididunt ut labore et dolore magna aliqua.</p>
+						<img src="img/about/1.jpg" style="width: 90%; margin-bottom: 30px; margin-left: 3%;" alt="">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="experience__text">
+						<h3 class="about__title">La plongée sous-marine</h3>
+						<div class="experience__item">
+							<h4>Un autre monde</h4>
+							<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Vivamus at nibh tincidunt, bibendum ligula id. Nemo enim ipsam voluptatem quiatotam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</p>
+						</div>
+						<div class="experience__item">
+							<h4>La faune</h4>
+							<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Vivamus at nibh tincidunt, bibendum ligula id. Nemo enim ipsam voluptatem quiatotam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</p>
+							<img src="img/about/2.jpg" style="width: 90%; margin-bottom: 30px; margin-left: 3%;" alt="">
+							<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Vivamus at nibh tincidunt, bibendum ligula id. Nemo enim ipsam voluptatem quiatotam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</p>
+						</div>
+						<div class="experience__item">
+							<h4>La flore</h4>
+							<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Vivamus at nibh tincidunt, bibendum ligula id. Nemo enim ipsam voluptatem quiatotam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</p>
+							<img src="img/about/3.jpg" style="width: 90%; margin-bottom: 30px; margin-left: 3%;" alt="">
+							<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Vivamus at nibh tincidunt, bibendum ligula id. Nemo enim ipsam voluptatem quiatotam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="skills__text">
+						<h3 class="about__title">Notre photographe</h3>
+						<div class="about__meta">
+							<img src="img/about/profile.jpg" alt="">
+							<div class="about__meta__info">
+								<h5>Marc Jean</h5>
+								<p>PHOTOGRAPHE</p>
+							</div>
+						</div>
+						<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Vivamus at nibh tincidunt, bibendum ligula id. </p>
+						<!-- <div class="single-progress-item">
+							<h6>Development</h6>
+							<div class="progress-bar-style" data-progress="70"></div>
+						</div>
+						<div class="single-progress-item">
+							<h6>APP Design</h6>
+							<div class="progress-bar-style" data-progress="70"></div>
+						</div>
+						<div class="single-progress-item">
+							<h6>Graphic Design</h6>
+							<div class="progress-bar-style" data-progress="70"></div>
+						</div>
+						<div class="single-progress-item">
+							<h6>Photography</h6>
+							<div class="progress-bar-style" data-progress="70"></div>
+						</div> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- About Page end -->
+
+	<img src="img/toparrow.png" id="scrollToTop" alt="">
+
+	<!-- Footer Section -->
+	<footer class="footer__section">
+		<div class="container">
+			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+			<div class="footer__copyright__text">
+				<p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | Site réalisé avec <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+			</div>
+			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+		</div>
+	</footer>
+	<!-- Footer Section end -->
+
+	<!-- Search Begin -->
+	<div class="search-model">
+		<div class="h-100 d-flex align-items-center justify-content-center">
+			<div class="search-close-switch">+</div>
+			<form class="search-model-form">
+				<input type="text" id="search-input" placeholder="Search here.....">
+			</form>
+		</div>
+	</div>
+	<!-- Search End -->
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/vendor/jquery-3.2.1.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/main.js"></script>
+
+	</body>
+</html>

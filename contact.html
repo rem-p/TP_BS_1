@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+	<title>Musée de la photographie sous-marine de Bonifacio</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Musée de la photographie sous-marine de Bonifacio">
+	<meta name="keywords" content="photo, plongée">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/slicknav.min.css"/>
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="css/style.css"/>
+
+	<link rel="icon" href="img/icon2.png">
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- Header Section -->
+	<header class="header">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-4 col-md-3 order-2 order-sm-1">
+					<div class="header__social">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-6 order-1  order-md-2 text-center">
+					<a href="./index.html" class="site-logo">
+						<img src="img/logo.png" alt="">
+					</a>
+				</div>
+				<div class="col-sm-4 col-md-3 order-3 order-sm-3">
+					<div class="header__switches">
+						<a href="#" class="search-switch"><i class="fa fa-search"></i></a>
+						<a href="#" class="nav-switch"><i class="fa fa-bars"></i></a>
+						<a href="./tarifs.html" title="Acheter des photos"><i class="fa fa-shopping-cart"></i></a>
+					</div>
+				</div>
+			</div>
+			<nav class="main__menu">
+				<ul class="nav__menu">
+					<li><a href="./index.html">Accueil</a></li>
+					<li><a href="./about.html">Présentation</a></li>
+					<li><a href="./gallery.html">Galerie</a></li>
+					<li><a href="./blog.html">Blog</a>
+						<ul class="sub__menu">
+							<li><a href="#">Photographier dans l'eau</a></li>
+							<li><a href="#">La faune des côtes corses</a></li>
+							<li><a href="#">Les saisons sous-marines</a></li>
+							<li><a href="#">La flore des côtes corses</a></li>
+							<li><a href="#">Le matériel de plongée</a></li>
+						</ul>
+					</li>
+					<li><a href="./contact.html" class="menu--active">Contact</a>
+						<!-- <ul class="sub__menu">
+							<li><a href="./reservation_musee.html">Acheter un billet</a></li>
+						</ul> -->
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- Header Section end -->
+
+	<img src="img/contact/banner.jpg" style="margin-top: 30px; margin-bottom: 0px;" alt="">
+
+	<!-- Contact Page -->
+	<section class="contact__page">
+		<div class="contact__warp">
+			<div class="row">
+				<div class="col-md-6">
+					<h2>Contactez nous</h2>
+					<div class="contact__social">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<!-- <a href="#"><i class="fa fa-linkedin"></i></a> -->
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="contact__text">
+						<p>Phone: 001-1234-666666</p>
+						<p>Email: museedelaphotosubmarinebonifaciocorsica@gmail.com</p>
+						<p>Adresse: Centre Ville de Bonifacio, Corse</p>
+					</div>
+				</div>
+			</div>
+			<form class="contact__form">
+				<label for="sujet">Sujet : </label>
+				<select name="sujet">
+				  <option id="optionInfos" value="infos" selected="selected">Informations</option>
+				  <option id="optionReserv" value="reserv">Achat de ticket</option>
+				  <option id="optionAchat" value="achat">Achat de photos</option>
+				</select><br><br>
+				<input type="text" placeholder="Nom">
+				<input type="text" placeholder="Email">
+				<input type="text" placeholder="Téléphone (facultatif)">
+				<label id="labelForNbPlaces" for="sujet" hidden="true">Nombre de tickets à réserver : </label>
+				<select id="selectionNbPlaces" name="sujet" hidden="true">
+					<option value="1place">1</option>
+					<option value="2places">2</option>
+					<option value="3places">3</option>
+					<option value="4places">4</option>
+					<option value="5places">5</option>
+				</select><br><br>
+
+				<!-- <label id="labelForNbPlaces" hidden="true">Numéros des photos à acheter : </label>
+				<input type="checkbox" id="selectionPhotos" name="selectionPhotos">Photo #1 -->
+				<input type="text" id="msg" placeholder="Message...">
+				
+				<a href="mailto:museedelaphotosubmarinebonifaciocorsica@gmail.com">Envoyer</a>
+				<!-- <textarea placeholder="Message"></textarea> -->
+				<!-- <button class="site-btn">Send Message</button> -->
+			</form>
+		</div>
+	</section>
+	<!-- Contact Page end -->
+
+	<img src="img/toparrow.png" id="scrollToTop" alt="">
+
+	<!-- Footer Section -->
+	<footer class="footer__section">
+		<div class="container">
+			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+			<div class="footer__copyright__text">
+				<p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | Site réalisé avec <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+			</div>
+			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+		</div>
+	</footer>
+	<!-- Footer Section end -->
+
+	<!-- Search Begin -->
+	<div class="search-model">
+		<div class="h-100 d-flex align-items-center justify-content-center">
+			<div class="search-close-switch">+</div>
+			<form class="search-model-form">
+				<input type="text" id="search-input" placeholder="Search here.....">
+			</form>
+		</div>
+	</div>
+	<!-- Search End -->
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/vendor/jquery-3.2.1.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
